@@ -27,6 +27,7 @@ public class HomeController
         this.publisher.publishEvent(new LoginEvent(request.getContextPath()));
         System.out.println("print sth. to test github");
         System.out.println("print sth. more to test");
+        System.out.println("add one more line to test");
         log.warn("*****finish publish event in controller");
         return "login";
     }
