@@ -43,7 +43,7 @@ public class ClusterEventMulticaster extends SimpleApplicationEventMulticaster
             }
             catch(Exception e)
             {
-                log.error("Failed to broadcast distributable event to cluster.",
+                log.error("Failed to broadcast distributable event to cluster. add sth.",
                         e);
             }
         }
