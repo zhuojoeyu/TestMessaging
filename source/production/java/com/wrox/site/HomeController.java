@@ -29,7 +29,9 @@ public class HomeController
         System.out.println("print sth. more to test");
         System.out.println("add one more line to test");
         System.out.println("let's test one more line to see what happens");
+        //add dome comments to test
         log.warn("*****finish publish event in controller");
+        //add more comments
         return "login";
     }
 
