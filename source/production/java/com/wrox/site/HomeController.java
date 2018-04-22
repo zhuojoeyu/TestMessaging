@@ -23,7 +23,8 @@ public class HomeController
     @RequestMapping("")
     public String login(HttpServletRequest request)
     {
-    	log.warn("*****publish event in controller...");
+    		//add some comments
+    		log.warn("*****publish event in controller...");
         this.publisher.publishEvent(new LoginEvent(request.getContextPath()));
         System.out.println("print sth. to test github");
         System.out.println("print sth. more to test");
